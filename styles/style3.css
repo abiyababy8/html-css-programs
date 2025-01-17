@@ -1,0 +1,33 @@
+/* tag selector */
+body{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/* id selector */
+#main_heading{
+    color: red;
+    font-size: 25px;
+}
+#sub_heading{
+    color: green;
+    font-weight: bolder;
+}
+#class_selector_name{
+    font-size: 25px;
+    color: olive;
+}
+
+/* class selector */
+.selector_name{
+    color: blue;
+}
+.selector_name{
+    color: orange;
+}
+
+/* Universal selector */
+*{
+    font-family:cursive;
+}
+

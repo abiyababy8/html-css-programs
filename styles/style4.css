@@ -1,0 +1,9 @@
+.type_styles{
+  color: orange;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    margin-top: 30px;
+}

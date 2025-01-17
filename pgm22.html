@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent_div {
+            height: 400px;
+            width: 1000px;
+            border: 2px solid red;
+            display: flex;
+        }
+
+        .child_1 {
+            width: 75px;
+            height: 75px;
+            background-color: yellow;
+        }
+
+        .child_2 {
+            width: 75px;
+            height: 75px;
+            background-color: orange;
+        }
+
+        .parent_1 {
+            height: 200px;
+            width: 1000px;
+            border: 2px solid red;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            /* toalign item center in x axis dependent on display flex */
+        }
+
+        .child_3,
+        .child_4 {
+            width: 75px;
+            height: 75px;
+            background-color: yellow;
+        }
+
+        .parent_2 {
+            margin-top: 50px;
+            width: 1000px;
+            height: 200px;
+            border: 2px solid red;
+            margin-top: 50px;
+            align-items: center;
+            /* to align items center in y axis dependent on display flex  */
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent_div">
+        <div class="child_1">
+
+        </div>
+        <div class="child_2">
+
+        </div>
+    </div>
+    <div class="parent_1">
+        <div class="child_3">
+
+        </div>
+    </div>
+    <div class="parent_2">
+        <div class="child_4"></div>
+    </div>
+</body>
+
+</html>

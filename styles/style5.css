@@ -1,0 +1,18 @@
+.heading{
+    color: red;
+}
+.banner_text{
+    background-color: yellow;
+}
+div p{/* to apply style to p tag in div tag */
+    color: blue;
+}
+#sub_div h5{/* to apply style to h5 tag in a particular class */
+    color: orange;
+}
+h5{
+    color: blueviolet;
+}
+.class1, .class2{/* to apply same style to multiple classes */
+    color: green;
+}
